@@ -3,6 +3,5 @@ services:
     environment:
       - NODE_ENV=production
     command: npm run prod
-    depends_on:
-      - postgres
+
   
